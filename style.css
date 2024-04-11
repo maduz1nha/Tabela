@@ -1,0 +1,76 @@
+body{
+    background-image: url(imagens/download\ \(3\).jpeg);
+    background-size: cover;
+}
+
+h1{
+    size: 50px;
+    color: rgb(245, 10, 198);
+    text-align: center;
+    line-height: 80px;
+    text-shadow: 5px 5px 5px;
+    font-size: 75px;
+}
+
+th{
+    font-size: 25px;
+    color: floralwhite;
+    font: italic;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background: rgb(216, 45, 242);
+    opacity: 0.50;
+}
+
+tr{
+    list-style-type: none;
+    line-height: 30px;
+    border: 1px solid black;
+}
+
+img{
+    width: 100px;
+    height: 130px;
+    margin: 0px;
+}
+
+figcaption{
+    font-size: 25px;
+    color: black;
+}
+
+td{
+    font-size: 25px;
+    color: black;
+    font: italic;
+    text-align: center;
+    border: 1px solid black;
+    background: rgb(188, 16, 232) ;
+}
+
+table{
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    display: fixed;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#total{
+    text-align: right;
+    color:black ;
+    font-size: 30px;
+}
+
+td :hover{
+    transform: scale(2.5);
+    background-color: rgb(228, 182, 240);
+    transition: 0.1s;
+}
+
+td.img{
+    opacity: 2.10;
+}
